@@ -1,0 +1,23 @@
+{
+    "name": "robingeuze/phprpki",
+    "description": "A PHP Implementation capable of parsing the RIR RPKI ROA Repositories",
+    "type": "project",
+    "require": {
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "php": ">=7.0",
+        "vakata/asn1": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Geuze",
+            "email": "ghostshaw@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RobinGeuze\\PhpRpki\\": "lib"
+        }
+    }
+}
